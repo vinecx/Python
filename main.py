@@ -4,7 +4,7 @@ from mtcnn import MTCNN, mtcnn
 import cv2
 
 # load image from file
-filename = "D:\\tetse.jpg"
+filename = "file directory"
 pixels = plt.imread(filename)
 print("Shape of image/array:",pixels.shape)
 imgplot = plt.imshow(pixels)
